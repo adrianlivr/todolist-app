@@ -1,0 +1,5 @@
+schema: http://api.todolist.dev/graphql
+generates:
+  ./src/shared/graphql/types.ts:
+    plugins:
+      - typescript
